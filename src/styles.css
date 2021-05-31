@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  background: url('https://cdn.pixabay.com/photo/2021/05/27/18/15/motorcycle-6288958_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title {
+  text-align: center;
+  margin-top: 100px;
+
+  color: bisque;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  width: 50%;
+  margin: auto;
+
+  font-size: 30px;
+  color: bisque;
+}
+
+.value {
+  display: block;
+  text-align: center;
+}
